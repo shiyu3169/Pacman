@@ -1,0 +1,57 @@
+Exercise 1.1
+
+1. atom
+2. variable
+3. atom
+4. variable
+5. atom
+6. atom
+7. neither
+8. atom
+9. variable
+10.atom
+
+Exercise 1.2
+
+1. complex term, functor: loves, arity: 2
+2. atom
+3. not term
+4. complex term, functor: boxer, arity: 1
+5. complex term, functor: and, arity: 2
+6. complex term, functor: and, arity: 2
+7. not term
+8. not term
+9. not term
+10.not term
+
+Exercise 1.3
+
+facts: 3
+rules: 4
+clauses: 7
+predicates: 7
+
+     Head     |         Goals
+ person(X)    | man(X), woman(X)
+ loves(X, Y)  | father(X, Y)
+ father(Y, Z) | man(Y), son(Z, Y)
+ father(Y, Z) | man(Y), daughter(Z, Y)
+
+Exercise 1.4
+
+1. killer(butch).
+2. married(mia, marcellus).
+3. dead(zed).
+4. kills(marcellus, X) :- givesFootMassage(X, mia).
+5. loves(mia, X) :- goodDancer(X).
+6. eats(jules, X) :- tasty(X).
+
+Exercise 1.5
+
+1. true
+2. undefined procedure
+3. false
+4. undefined procedure
+5. true
+6. Y = ron ; Y = harry.
+7. undefined procedure

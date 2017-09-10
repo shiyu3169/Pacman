@@ -1,0 +1,17 @@
+Comparing BFS and A* Algorithms:
+    BFS
+    BFS will look at a lot more nodes than A* will, which makes it much slower.
+    Also, BFS will keep pushing all neibours of current node into queque, which uses more space to store them.
+
+    Time complexity: O(|E|)=O(b^d)
+    Space complexity:O(|V|)=O(b^d)
+
+    AStar
+    AStar uses the following function
+    cost = d(s,c) + h(c)
+    where s is the source node, c is the node currently expanded and h(c) is the estimation of the cost to reach from c to the destination pill.
+    In this game, we use manhattan heuristic as an estimate. Given two nodes (r,c) and (r1,c1). The manhattan heuristic is the manhattan distance between the two nodes and is given by
+    |r1 - r | + |c1 - c|
+
+    TIme complexity: O(|E|)=O(b^d)
+    Space complexity: O(|V|)=O(b^{d})

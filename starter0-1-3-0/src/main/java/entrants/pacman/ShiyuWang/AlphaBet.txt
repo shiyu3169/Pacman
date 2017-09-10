@@ -1,0 +1,4 @@
+Alpha-Beta Pruning
+    It is a search algorithm that seeks to decrease the number of nodes that are evaluated by the minimax algorithm in its search tree.Minimax algorithm is minimizing the possible loss for a worst case
+    Time complexity: O(b^(d/2))
+    Space complexity:b^O(b^h)
